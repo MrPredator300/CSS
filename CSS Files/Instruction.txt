@@ -1,0 +1,3 @@
+Create a HTML file and create another CSS file with just the CSS body 
+After that call the CSS file in the HTML <head> tag and execute
+No need to write <style> tag in the HTML doc (OR) CSS doc

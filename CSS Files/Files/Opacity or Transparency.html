@@ -1,0 +1,34 @@
+<!--
+Note: When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.
+-->
+
+<!DOCTYPE html>
+<html>
+<title>Opacity / Transparency</title>
+<head><p align="Center"><b>Opacity / Transparency</b></p></head>
+<head>
+<link rel="stylesheet" href="Opacity or Transparency.css">
+</head>
+<body>
+
+<h1>Transparent Boxes</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first">
+  <h1>opacity 0.1</h1>      <!-- Calling the CSS div function file -->
+</div>
+
+<div class="second">
+   <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+    <h1>opacity 0.6</h1>
+</div>
+
+<div>
+  <h1>opacity 1 (default)</h1>   <!-- No "div class" used because we are not calling any function -->
+</div>
+
+</body>
+</html>
