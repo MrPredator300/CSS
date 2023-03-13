@@ -1,9 +1,0 @@
-h1,h2,p {
- text-align: center;
- color: red;
-}
-
-<!-- 
-To group selectors, separate each selector with a comma.
-It is better to group the selectors, to minimize the code.
--->
